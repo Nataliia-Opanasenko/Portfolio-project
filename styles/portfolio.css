@@ -52,11 +52,20 @@ p {
 .about-section  h1 {
     font-family: var(--heading-font-family);
     font-size: 64px;
+    line-height: 1.5;
 
 }
 .about-section h2 {
     font-size: 18px;
     font-weight: bold;
+    font-family: var(--default-font-family);
+}
+
+.about-section {
+     padding: 200px 20px;
+}
+.about-section-content {
+    margin: 30px;
 }
 
 
@@ -136,6 +145,11 @@ p {
 @media (max-width: 960px) {
     .hero {
         padding: 80px 20px;
+    }
+    
+    .about-section {
+        text-align: center;
+        padding: 0;
     }
 
     h1{
