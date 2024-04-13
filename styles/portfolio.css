@@ -23,7 +23,7 @@ h1 {
 h2 {
     font-size: 64px;
 }
-h4 {
+h3 {
     font-size: 48px;
 }
 p {
@@ -36,7 +36,7 @@ p {
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 200px 20px;
+    padding: 80px 20px;
 }
 .hero p {
     font-size: 36px;
@@ -65,7 +65,7 @@ p {
 }
 
 .content-container {
-     padding: 200px 20px;
+     padding: 80px 20px;
 }
 .content {
     margin: 30px;
@@ -226,10 +226,7 @@ transition: all 100ms ease-in-out;
 
 
 @media (max-width: 960px) {
-    .hero {
-        padding: 80px 20px;
-    }
-    
+
     .content-section {
         text-align: center;
         padding: 0;
@@ -243,7 +240,7 @@ h2{
 font-size: 45px;
     }
 
- h4 {
+ h3 {
     font-size: 24px;
  }
 
